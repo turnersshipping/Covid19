@@ -34,5 +34,26 @@ var response =  "Name and Surnames:\t\t\t " + name + "\n" + "Contact Number is:\
              "&subject=" + escape( name +" Symptom Monitoring Responses")+
              "&body=" + escape("Hi these are covid19 response from users below:-\n\n" + response);
   window.location.href = link;
-
+document.getElementById('Fever_OR_Chills1').checked = false;
+document.getElementById('Fever_OR_Chills2').checked = false;
+document.getElementById('Cough1').checked = false;
+document.getElementById('Cough2').checked = false;
+document.getElementById('Sore_throat1').checked = false;
+document.getElementById('Sore_throat2').checked = false;
+document.getElementById('Shortness_of_breath1').checked = false;
+document.getElementById('Shortness_of_breath2').checked = false;
+document.getElementById('Body_aches1').checked = false;
+document.getElementById('Body_aches2').checked = false;
+document.getElementById('Redness_of_the_eyes1').checked = false;
+document.getElementById('Redness_of_the_eyes2').checked = false;
+document.getElementById('Loss_of_smell_OR_loss_of_taste1').checked = false;
+document.getElementById('Loss_of_smell_OR_loss_of_taste2').checked = false;
+document.getElementById('Nausea_OR_vomiting_OR_diarrhea1').checked = false;
+document.getElementById('Nausea_OR_vomiting_OR_diarrhea2').checked = false;
+document.getElementById('Fatigue_OR_weakness1').checked = false;
+document.getElementById('Fatigue_OR_weakness2').checked = false;
+document.getElementById('name').value == "";
+document.getElementById('Contact').value == "";
+document.getElementById('DayPostExposure').value == "";
+document.getElementById('Comments1').value == "";
 });
