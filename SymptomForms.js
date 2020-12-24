@@ -46,10 +46,10 @@ var response =  "Name and Surnames:\t\t\t " + name + "\n" + "Contact Number is:\
 	document.getElementById('Nausea_OR_vomiting_OR_diarrhea2').checked = false;
 	document.getElementById('Fatigue_OR_weakness1').checked = false;
 	document.getElementById('Fatigue_OR_weakness2').checked = false;
-	document.getElementById('name').value == "";
-	document.getElementById('Contact').value == "";
-	document.getElementById('DayPostExposure').value == "";
-	document.getElementById('Comments1').value == "";
+	document.getElementById('name').value = "";
+	document.getElementById('Contact').value = "";
+	document.getElementById('DayPostExposure').value = "";
+	document.getElementById('Comments1').value = "";
 	alert("Form Completed, Please Send the Email!");
   var link = "mailto:turnersshipping@gmail.com"+
              "?cc=Lindani@turnersshipping.co.za"+
