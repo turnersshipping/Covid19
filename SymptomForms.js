@@ -30,7 +30,7 @@ var Comments = document.getElementById("Comments1").value + "\n";
 var response =  "Name and Surnames:\t\t\t " + name + "\n" + "Contact Number is:\t\t\t"+ Contact + "Days post exposure:\t\t\t " + DayPostExposure + Sym1 + Sym2 + Sym3 + Sym4 + Sym5 + Sym6 + Sym7 + Sym8 + Sym9 + "Comments left:\t\t\t\t " + Comments;
 	alert("Form Completed, Please Send the Email!");
   var link = "mailto:turnersshipping@gmail.com"+
-             "?cc=leemfeka01@gmail.com"+
+             "?cc=Lindani@turnersshipping.co.za"+
              "&subject=" + escape( name +" Symptom Monitoring Responses")+
              "&body=" + escape("Hi these are covid19 response from users below:-\n\n" + response);
   window.location.href = link;
